@@ -1,0 +1,65 @@
+@media screen and (max-width: 1140px) {
+    /*************** Nav section *******************/
+  
+    .nav-items {
+      display: none;
+    }
+  
+    .menu {
+      display: flex;
+      margin-right: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 980px) {
+    /*************** Nav section *******************/
+  
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px 0 20px 20px;
+      box-sizing: border-box;
+    }
+  
+    img[alt="actions"] {
+      display: none;
+    }
+  
+    .menu {
+      display: flex;
+      margin-right: 20px;
+    }
+  
+    /*************** Intro section *******************/
+  
+    .intro-section {
+      flex-direction: column-reverse;
+      align-items: center;
+      margin: 40px 20px;
+    }
+  
+    .left-section {
+      padding: 0;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .right-section {
+      width: 80%;
+      margin: 0 0 40px 0;
+    }
+  
+    .headphone-div {
+      width: auto;
+  }
+  
+  .discount {
+      left: 0px;
+  }
+  
+  .discount-content {
+      left: 22px;
+  }
+  
+  }
